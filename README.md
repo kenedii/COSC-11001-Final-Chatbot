@@ -1,5 +1,6 @@
 # COSC-11001-Final-Chatbot-Assignment
-Introduction to Computer Programming COSC 11001 Final Chatbot Assignment 2022. This is a simple chatbot that can do many tasks using assumptions of the English language and includes a login system with basic encoding.
+Introduction to Computer Programming COSC 11001 Final Chatbot Assignment 2022. 
+This is a simple chatbot that can do many tasks using assumptions of the English language and includes a login system with basic encoding.
 
 **Package Dependencies: **
 (Run ‘**requirements.bat**’ for easy install of **all** required packages)
@@ -36,7 +37,7 @@ If pip can not be used to install the required packages, running python setup.py
 -Tells user their monitor size
 -Tells user their system info (OS, RAM size, CPU, GPU)
 
-Examples of commands:
+**Examples of commands:**
 I want to flip a coin
 Can you solve an equation for me?
 Tell me who is in space right now
@@ -56,8 +57,11 @@ What are my system specs
 
 *When the bot asks ‘What type of chatbot would you like to talk to?’ it is asking if you would like to talk to the grumpy or happy bot.*
 
+**Files:**
+
 -main.py
 The main file. Run this to execute the program
+
 -ChatBot.py
 Functions:
 ChatBot.sayhi() - Says hi
@@ -66,6 +70,7 @@ ChatBot.emotion() - displays emotion after messages
 ChatBot.time() - tells the user the current time
 ChatBot.changePassword() - Changes the user’s password in the database
 ChatBot.getuser_response() - awaits user input
+
 -ExtraFeatures.py
 Functions:
 titlescreen() - Displays a title screen for the bot
@@ -74,13 +79,16 @@ InSpace.list() - Lists everyone in space and the spaceship they are on
 Games.coinflip() - Flips a coin
 systemSpecs.monitorSize() - Tells the user the size of their monitor
 systemSpecs.systemSpecs() - Tells user their os, cpu, gpu, and ram size
+
 -FetchCryptoPrice.py
 Functions:
 FetchPrice.fetchStockPrice() - Gets the value of a stock and displays % rise/fall from previous day
 FetchPrice.fetchCryptoPrice() - Gets the value of a cryptocurrency
+
 -Math.py
 Functions:
 Math.parser() - Parse and solve math expressions
+
 -SaveData.py
 Functions:
 SaveData.getFileName() return filename
@@ -90,7 +98,8 @@ SaveData.Login() - Brings up the login screen
 SaveData.setPassword() - Changes the user’s password in the database
 SaveData.print()*
 SaveData.input()*
-* Print and input functions were overrided so they also output their contents to log file 
+* Print and input functions were overrided so they also output their contents to log file
+  
 -Database.data (File is created if it doesn’t exist)
-requirements.bat (Installs package dependencies with pip)
+-requirements.bat (Installs package dependencies with pip)
 
