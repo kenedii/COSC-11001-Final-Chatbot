@@ -38,21 +38,37 @@ If pip can not be used to install the required packages, running python setup.py
 -Tells user their system info (OS, RAM size, CPU, GPU)
 
 **Examples of commands:**
+
 I want to flip a coin
+
 Can you solve an equation for me?
+
 Tell me who is in space right now
+
 I want to roll a die
+
 I want to change my password
+
 How are you?
+
 Turn into an angry chat bot
+
 I don’t like the happy chatbot
+
 What time is it?
+
 Change to the default bot
+
 Tell me a crypto price
+
 Tell me a stock price
+
 Goodbye
+
 What is my monitor size
+
 Do you know my name
+
 What are my system specs
 
 *When the bot asks ‘What type of chatbot would you like to talk to?’ it is asking if you would like to talk to the grumpy or happy bot.*
